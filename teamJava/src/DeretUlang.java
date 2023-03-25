@@ -25,7 +25,7 @@ public class DeretUlang {
         while (ketentuanNim) {
             System.out.print("Masukkan NIM Anda [harus 10 karakter] : ");
             nim = input.nextLine();
-            if (nim.matches("\\d{3}")){
+            if (nim.matches("\\d{10}")){
                 ketentuanNim = false;
             } else {
                 System.out.println("Mohon masukkan NIM dengan benar (10 karakter)...");
